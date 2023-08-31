@@ -1,0 +1,102 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-items: space-between;
+    background-color: beige;
+    
+}
+
+.flexWrapper{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 2px 5px gray;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(16, 25px);
+    grid-template-rows: repeat(16, 25px);
+}   
+.mode1{
+        display: grid;
+        grid-template-columns: repeat(100, 4px);
+        grid-template-rows: repeat(100, 4px);        
+}
+.mode2{
+    display: grid;
+    grid-template-columns: repeat(80, 5px);
+    grid-template-rows: repeat(80, 5px);        
+}
+.mode3{
+    display: grid;
+    grid-template-columns: repeat(50, 8px);
+    grid-template-rows: repeat(50, 8px);        
+}
+.mode4{
+    display: grid;
+    grid-template-columns: repeat(40, 10px);
+    grid-template-rows: repeat(40, 10px);        
+}
+.mode5{
+    display: grid;
+    grid-template-columns: repeat(25, 16px);
+    grid-template-rows: repeat(25, 16px);        
+}
+.mode6{
+    display: grid;
+    grid-template-columns: repeat(20, 20px);
+    grid-template-rows: repeat(20, 20px);        
+}
+.mode7{
+    display: grid;
+    grid-template-columns: repeat(16, 25px);
+    grid-template-rows: repeat(16, 25px);        
+}
+.mode8{
+    display: grid;
+    grid-template-columns: repeat( 10, 40px);
+    grid-template-rows: repeat(10, 40px);        
+}
+.mode9{
+    display: grid;
+    grid-template-columns: repeat(8, 50px);
+    grid-template-rows: repeat(8, 50px);        
+}
+.mode10{
+    display: grid;
+    grid-template-columns: repeat(5, 80px);
+    grid-template-rows: repeat(5, 80px);        
+}
+.mode11{
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: repeat(4, 100px);        
+}
+.mode12{
+    display: grid;
+    grid-template-columns: repeat(2, 200px);
+    grid-template-rows: repeat(2, 200px);        
+}
+.mode13{
+    display: grid;
+    grid-template-columns: repeat(1, 400px);
+    grid-template-rows: repeat(1, 400px);        
+}
+
+.squares{
+    background-color: white;
+    
+}
+
+.pixels{
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.painted{
+    background-color: aquamarine;
+
+}
